@@ -1,8 +1,8 @@
 trigger:
   - main
 
-pool:rock-jack
-  
+pool:
+  rock-jack
 
 steps:
 - task: TerraformInstaller@1
