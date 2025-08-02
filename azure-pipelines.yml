@@ -1,8 +1,8 @@
 trigger:
   - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+pool:rock-jack
+  
 
 steps:
 - task: TerraformInstaller@1
