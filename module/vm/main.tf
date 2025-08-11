@@ -10,7 +10,7 @@ resource "azurerm_network_interface" "main" {
   }
 }
 
-resource "azurerm_virtual_machine" "main" {
+resource "azurerm_virtual_machine" "jjvartual" {
   name                  = var.Docker_vm_name
   location              = var.location
   resource_group_name   = var.resource_group_name
